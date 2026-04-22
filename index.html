@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel &amp; Emilia · 5 February 2027</title>
+  <meta name="description" content="Daniel Storti &amp; Emilia Tsanaktsidis · 5 February 2027 · Al Ru Farm, South Australia" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Italiana&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="lace-border lace-top" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero">
+      <p class="overline">Together with their families</p>
+      <h1 class="names">
+        <span>Daniel</span>
+        <span class="amp">&</span>
+        <span>Emilia</span>
+      </h1>
+      <div class="divider" aria-hidden="true">
+        <span></span><svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 2l2.09 6.26L20 9.27l-4.91 3.82L16.18 20 12 16.5 7.82 20l1.09-6.91L4 9.27l5.91-1.01L12 2z" fill="currentColor" opacity=".55"/></svg><span></span>
+      </div>
+      <p class="date">Friday, the Fifth of February<br/>Two Thousand Twenty-Seven</p>
+      <p class="venue">Al Ru Farm · Sampson Flat, South Australia</p>
+    </section>
+
+    <section class="details">
+      <article class="detail-card">
+        <h2>The Day</h2>
+        <p class="big">05 · 02 · 2027</p>
+        <p class="small">Ceremony &amp; reception<br/>details to follow</p>
+      </article>
+      <article class="detail-card">
+        <h2>The Place</h2>
+        <p class="big">Al Ru Farm</p>
+        <p class="small">1016 One Tree Hill Road<br/>Sampson Flat SA 5114</p>
+      </article>
+    </section>
+
+    <section class="rsvp" id="rsvp">
+      <h2>Kindly Respond</h2>
+      <p class="rsvp-note">We can't wait to celebrate with you.</p>
+
+      <form
+        name="rsvp"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        action="/thanks.html"
+      >
+        <input type="hidden" name="form-name" value="rsvp" />
+        <p class="hp"><label>Leave this field empty: <input name="bot-field" /></label></p>
+
+        <div class="field">
+          <label for="name">Full name(s)</label>
+          <input type="text" id="name" name="name" autocomplete="name" required />
+        </div>
+
+        <fieldset class="field">
+          <legend>Will you be joining us?</legend>
+          <div class="radio-group">
+            <label class="radio">
+              <input type="radio" name="attending" value="Yes" required />
+              <span>Joyfully accepts</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="attending" value="No" />
+              <span>Regretfully declines</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="dietary">Dietary notes</label>
+          <textarea id="dietary" name="dietary" rows="3" placeholder="Allergies, preferences, anything we should know"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="song">Song request</label>
+          <input type="text" id="song" name="song" placeholder="Title — Artist" />
+        </div>
+
+        <button type="submit">Send RSVP</button>
+      </form>
+    </section>
+
+    <footer>
+      <p class="monogram">D &amp; E</p>
+      <p class="tag">Five · February · Twenty Twenty Seven</p>
+    </footer>
+  </main>
+
+  <div class="lace-border lace-bottom" aria-hidden="true"></div>
+</body>
+</html>
