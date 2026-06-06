@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kindly Reply · Daniel &amp; Emilia</title>
+  <meta name="description" content="Kindly reply by 1 December 2026 · Daniel &amp; Emilia" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-mono">D <span>&amp;</span> E</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="ceremony.html">Ceremony</a></li>
+      <li><a href="reception.html">Reception</a></li>
+      <li><a href="rsvp.html" class="active">RSVP</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="page">
+      <p class="eyebrow">Kindly Reply</p>
+      <p class="rsvp-intro">Your reply would be most appreciated by</p>
+      <p class="rsvp-date">1 December 2026</p>
+      <div class="ornament" aria-hidden="true">
+        <svg viewBox="0 0 120 20"><path d="M0 10 h40 M80 10 h40" stroke="currentColor" stroke-width="0.5" fill="none"/><circle cx="60" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="0.6"/><circle cx="60" cy="10" r="0.8" fill="currentColor"/><path d="M46 10 Q53 4 60 10 Q67 16 74 10" stroke="currentColor" stroke-width="0.5" fill="none"/></svg>
+      </div>
+
+      <form
+        name="rsvp"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        action="/thanks.html"
+        class="rsvp-form"
+      >
+        <input type="hidden" name="form-name" value="rsvp" />
+        <p class="hp"><label>Leave empty: <input name="bot-field" /></label></p>
+
+        <div class="field">
+          <label for="name">Full name(s)</label>
+          <input type="text" id="name" name="name" autocomplete="name" required />
+        </div>
+
+        <fieldset class="field">
+          <legend>Will you be joining us?</legend>
+          <div class="radio-group">
+            <label class="radio">
+              <input type="radio" name="attending" value="Yes" required />
+              <span>Joyfully accepts</span>
+            </label>
+            <label class="radio">
+              <input type="radio" name="attending" value="No" />
+              <span>Regretfully declines</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="guests">Number in your party</label>
+          <input type="text" id="guests" name="guests" inputmode="numeric" placeholder="e.g. 2" />
+        </div>
+
+        <div class="field">
+          <label for="dietary">Dietary requirements</label>
+          <textarea id="dietary" name="dietary" rows="3" placeholder="Allergies or intolerances we should know of"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="song">A song to dance to</label>
+          <input type="text" id="song" name="song" placeholder="Title — Artist" />
+        </div>
+
+        <button type="submit" class="btn">Send Reply</button>
+      </form>
+
+      <p class="rsvp-note">Dietary requirements will be catered for with prior notice.<br/>Kindly advise of any allergies or intolerances with your reply.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="monogram">D <span>&amp;</span> E</p>
+    <p class="footer-date">Five · February · Two Thousand Twenty-Seven</p>
+    <p class="footer-small">St Ignatius' Church, Norwood · Al Ru Farm, South Australia</p>
+  </footer>
+
+</body>
+</html>
