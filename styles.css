@@ -8,20 +8,20 @@
   --champagne: #b8995f;
   --champagne-soft: #cdb585;
   --ink: #2b1d15;
-  --muted: #7a6a5a;
+  --muted: #574636;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; font-size: 17px; }
 
 body {
   background: var(--cream);
   color: var(--ink);
   font-family: 'Cormorant Garamond', Georgia, serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.7;
-  font-size: 17px;
+  font-size: 1rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -69,9 +69,9 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.22em;
+  font-size: 0.84rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ink);
   text-decoration: none;
@@ -238,8 +238,8 @@ img { max-width: 100%; display: block; }
 
 .eyebrow {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 0.82rem;
+  font-weight: 600;
+  font-size: 0.88rem;
   color: var(--burgundy-wine);
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -282,10 +282,10 @@ img { max-width: 100%; display: block; }
 
 .detail-label {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 0.85rem;
+  font-weight: 600;
+  font-size: 0.9rem;
   color: var(--burgundy-wine);
-  letter-spacing: 0.3em;
+  letter-spacing: 0.26em;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -301,11 +301,11 @@ img { max-width: 100%; display: block; }
 
 .detail-text {
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-  font-size: 1.08rem;
+  font-weight: 500;
+  font-size: 1.18rem;
   color: var(--muted);
-  line-height: 1.85;
-  letter-spacing: 0.02em;
+  line-height: 1.8;
+  letter-spacing: 0.015em;
 }
 .detail-text + .detail-text { margin-top: 0.1rem; }
 
@@ -366,7 +366,8 @@ img { max-width: 100%; display: block; }
 .rsvp-intro {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 1.15rem;
+  font-weight: 500;
+  font-size: 1.22rem;
   color: var(--muted);
   margin-bottom: 0.5rem;
 }
@@ -374,7 +375,8 @@ img { max-width: 100%; display: block; }
 .rsvp-note {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 1.05rem;
+  font-weight: 500;
+  font-size: 1.12rem;
   color: var(--muted);
   max-width: 460px;
   margin: 2.5rem auto 0;
@@ -396,10 +398,10 @@ img { max-width: 100%; display: block; }
 .field legend {
   display: block;
   font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
-  font-size: 0.85rem;
+  font-weight: 600;
+  font-size: 0.92rem;
   color: var(--burgundy-wine);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
   padding: 0;
@@ -640,12 +642,13 @@ img { max-width: 100%; display: block; }
 
 .welcome-text {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   font-style: italic;
   color: var(--muted);
   max-width: 640px;
   margin: 0 auto;
-  line-height: 1.8;
+  line-height: 1.75;
 }
 
 /* ---- at a glance ---- */
@@ -704,9 +707,10 @@ img { max-width: 100%; display: block; }
 }
 .card-text {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.02rem;
+  font-weight: 500;
+  font-size: 1.12rem;
   color: var(--muted);
-  line-height: 1.65;
+  line-height: 1.6;
 }
 @media (max-width: 860px) {
   .card-grid { grid-template-columns: 1fr 1fr; }
