@@ -445,10 +445,10 @@ img { max-width: 100%; display: block; }
 
 .radio-group { display: flex; flex-direction: column; gap: 1rem; }
 
-.radio {
+.field .radio {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.85rem;
   font-family: 'Playfair Display', serif;
   font-size: 1.15rem;
   font-style: italic;
@@ -456,6 +456,8 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
   font-weight: 400;
   margin: 0;
+  text-transform: none;
+  letter-spacing: 0.01em;
 }
 .radio input[type="radio"] {
   appearance: none;
