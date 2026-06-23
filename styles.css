@@ -126,13 +126,13 @@ img { max-width: 100%; display: block; }
 .hero-names {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
-  font-size: clamp(2rem, 8.6vw, 9.5rem);
+  font-size: clamp(1.9rem, 6.8vw, 6.25rem);
   line-height: 1.05;
   color: var(--burgundy);
   text-transform: uppercase;
   letter-spacing: 0.01em;
   white-space: nowrap;
-  margin-bottom: 1.6rem;
+  margin: 0 auto 1.6rem;
 }
 .hero-names .name { display: inline; }
 .hero-names .amp {
@@ -558,7 +558,7 @@ img { max-width: 100%; display: block; }
 .home-hero::before { top: 2.25rem; }
 .home-hero::after { bottom: 2.25rem; }
 
-.home-hero-inner { position: relative; max-width: 820px; }
+.home-hero-inner { position: relative; max-width: 1040px; width: 100%; }
 
 .home-hero .building {
   color: var(--champagne);
