@@ -3,60 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Font Preview · Daniel &amp; Emilia</title>
+  <title>Name Font Preview · Daniel &amp; Emilia</title>
   <meta name="robots" content="noindex" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Great+Vibes&family=Pinyon+Script&family=Parisienne&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <style>
     .fontbar {
       position: sticky; top: 0; z-index: 200;
       display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; align-items: center;
-      padding: 0.7rem 1rem;
-      background: #2b1d15; color: #f4eee2;
+      padding: 0.7rem 1rem; background: #2b1d15; color: #f4eee2;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
     }
-    .fontbar .lbl { font-size: 0.8rem; letter-spacing: 0.04em; opacity: 0.8; margin-right: 0.4rem; }
+    .fontbar .lbl { font-size: 0.8rem; opacity: 0.8; margin-right: 0.4rem; width: 100%; text-align: center; margin-bottom: 0.2rem; }
     .fontbar button {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-      font-size: 0.82rem; cursor: pointer;
-      padding: 0.5rem 0.9rem; border-radius: 4px;
-      border: 1px solid #b8995f; background: transparent; color: #f4eee2;
-      transition: all 0.2s ease;
+      font-size: 0.82rem; cursor: pointer; padding: 0.5rem 0.9rem; border-radius: 4px;
+      border: 1px solid #b8995f; background: transparent; color: #f4eee2; transition: all 0.2s ease;
     }
     .fontbar button:hover { background: rgba(184,153,95,0.25); }
     .fontbar button.active { background: #b8995f; color: #2b1d15; font-weight: 600; }
-    .fontbar .now { width: 100%; text-align: center; font-size: 0.78rem; opacity: 0.75; margin-top: 0.2rem; }
-    .preview-divider { height: 1px; background: rgba(184,153,95,0.4); max-width: 880px; margin: 0 auto; }
+    .fontbar .now { width: 100%; text-align: center; font-size: 0.78rem; opacity: 0.75; margin-top: 0.3rem; }
   </style>
 </head>
 <body>
 
   <div class="fontbar">
-    <span class="lbl">Preview fonts:</span>
-    <button data-k="current" class="active" onclick="setFont('current', this)">Current</button>
-    <button data-k="A" onclick="setFont('A', this)">A · Fraunces</button>
-    <button data-k="B" onclick="setFont('B', this)">B · DM Serif + Sans</button>
-    <button data-k="C" onclick="setFont('C', this)">C · Cinzel</button>
-    <span class="now" id="now">Showing: Current — Playfair Display + Cormorant Garamond</span>
+    <span class="lbl">Tap to preview the script for “Daniel &amp; Emilia”:</span>
+    <button data-k="caps" class="active" onclick="setName('caps', this)">Block caps (current)</button>
+    <button data-k="gv" onclick="setName('gv', this)">Great Vibes</button>
+    <button data-k="pin" onclick="setName('pin', this)">Pinyon Script</button>
+    <button data-k="par" onclick="setName('par', this)">Parisienne</button>
+    <span class="now" id="now">Showing: Block caps (current — Fraunces)</span>
   </div>
 
   <nav class="nav">
     <a href="#" class="nav-mono">D <span>&amp;</span> E</a>
     <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Details</a></li>
-      <li><a href="#">Ceremony</a></li>
-      <li><a href="#">Reception</a></li>
-      <li><a href="#">RSVP</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="ceremony.html">Ceremony</a></li>
+      <li><a href="reception.html">Reception</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
     </ul>
   </nav>
 
   <main>
-
-    <!-- HERO SAMPLE -->
-    <header class="home-hero" style="min-height: 70vh;">
+    <header class="home-hero">
       <div class="home-hero-inner">
         <h1 class="hero-names">
           <span class="name">Daniel</span>
@@ -72,90 +66,31 @@
         </div>
       </div>
     </header>
-
-    <!-- DETAILS SAMPLE -->
-    <section class="page section-cream">
-      <p class="eyebrow">The Particulars</p>
-      <h2 class="section-title">Details</h2>
-      <div class="detail-grid">
-        <article class="detail">
-          <p class="detail-label">The Day</p>
-          <p class="detail-text">Ceremony at one o'clock</p>
-          <p class="detail-text">Reception to follow from five o'clock</p>
-          <p class="detail-text">Carriages at midnight</p>
-        </article>
-        <article class="detail">
-          <p class="detail-label">The Attire</p>
-          <p class="detail-sub">Formal Attire</p>
-          <p class="detail-text">The reception will be held outdoors. Please consider the evening weather and suitable footwear for lawn, paving and stone surfaces.</p>
-        </article>
-      </div>
-    </section>
-
-    <div class="preview-divider"></div>
-
-    <!-- PLACE SAMPLE -->
-    <section class="page section-cream">
-      <p class="eyebrow">The Ceremony</p>
-      <div class="place">
-        <h2 class="place-name">St Ignatius'<br/>Catholic Church</h2>
-        <p class="place-time">One O'Clock</p>
-        <div class="place-block">
-          <p class="detail-label">Address</p>
-          <p class="detail-text">137 William Street<br/>Norwood SA 5067</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="preview-divider"></div>
-
-    <!-- RSVP SAMPLE -->
-    <section class="page section-cream">
-      <p class="eyebrow">Kindly Reply</p>
-      <p class="rsvp-date">1 December 2026</p>
-      <form class="rsvp-form" onsubmit="return false;">
-        <div class="field">
-          <label for="pn">Full name(s)</label>
-          <input type="text" id="pn" />
-        </div>
-        <fieldset class="field">
-          <legend>Will you be joining us?</legend>
-          <div class="radio-group">
-            <label class="radio"><input type="radio" name="a" /><span>Joyfully accepts</span></label>
-            <label class="radio"><input type="radio" name="a" /><span>Regretfully declines</span></label>
-          </div>
-        </fieldset>
-        <button type="submit" class="btn">Send Reply</button>
-      </form>
-    </section>
-
   </main>
 
   <footer class="footer">
     <p class="monogram">D <span>&amp;</span> E</p>
-    <p class="footer-date">Five · February · Two Thousand Twenty-Seven</p>
-    <p class="footer-small">A private page for choosing fonts — not part of the live site.</p>
+    <p class="footer-small">A private page for choosing the name font — not part of the live site.</p>
   </footer>
 
   <script>
-    var DISPLAY_SEL = ".hero-names,.hero-names .name,.hero-names .amp,.section-title,.place-name,.nav-mono,.monogram,.eyebrow,.detail-label,.place-time,.card-title,.glance-main,.rsvp-date,.detail-sub,.count-num,.field legend,.field label";
-    var BODY_SEL = "body,p,a,span,li,input,textarea,legend,label";
     var OPTS = {
-      current: { name: "Current — Playfair Display + Cormorant Garamond" },
-      A: { disp: "Fraunces", body: "EB Garamond", fb: "serif", name: "A — Fraunces + EB Garamond" },
-      B: { disp: "DM Serif Display", body: "Montserrat", fb: "sans-serif", name: "B — DM Serif Display + Montserrat (sans body)" },
-      C: { disp: "Cinzel", body: "Cormorant Garamond", fb: "serif", name: "C — Cinzel + Cormorant Garamond" }
+      caps: { name: "Block caps (current — Fraunces)" },
+      gv:  { font: "Great Vibes",    size: "clamp(3rem,12vw,7.5rem)", lh: "1.15", label: "Great Vibes" },
+      pin: { font: "Pinyon Script",  size: "clamp(3rem,12vw,7.5rem)", lh: "1.2",  label: "Pinyon Script" },
+      par: { font: "Parisienne",     size: "clamp(3rem,12vw,7rem)",   lh: "1.2",  label: "Parisienne" }
     };
-    function setFont(k, btn) {
+    function setName(k, btn) {
       var prev = document.getElementById('ov'); if (prev) prev.remove();
       var o = OPTS[k];
-      if (k !== 'current') {
+      if (k !== 'caps') {
         var s = document.createElement('style'); s.id = 'ov';
-        s.textContent = BODY_SEL + "{font-family:'" + o.body + "'," + o.fb + "!important;}"
-                      + DISPLAY_SEL + "{font-family:'" + o.disp + "',serif!important;}";
+        s.textContent =
+          ".hero-names{font-family:'" + o.font + "',cursive!important;text-transform:none!important;font-weight:400!important;letter-spacing:0!important;font-size:" + o.size + "!important;line-height:" + o.lh + "!important;}"
+        + ".hero-names .amp{font-family:'" + o.font + "',cursive!important;font-style:normal!important;font-size:0.95em!important;}";
         document.head.appendChild(s);
       }
-      document.getElementById('now').textContent = "Showing: " + o.name;
+      document.getElementById('now').textContent = "Showing: " + (o.name || o.label);
       var bs = document.querySelectorAll('.fontbar button');
       for (var i = 0; i < bs.length; i++) bs[i].classList.remove('active');
       if (btn) btn.classList.add('active');
