@@ -126,24 +126,24 @@ img { max-width: 100%; display: block; }
 .hero-names {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
-  font-size: clamp(2.8rem, 9vw, 5.25rem);
-  line-height: 1.0;
+  font-size: clamp(2rem, 8.6vw, 9.5rem);
+  line-height: 1.05;
   color: var(--burgundy);
   text-transform: uppercase;
-  letter-spacing: 0.02em;
-  margin-bottom: 1.75rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  margin-bottom: 1.6rem;
 }
-.hero-names .name { display: block; }
+.hero-names .name { display: inline; }
 .hero-names .amp {
-  display: block;
+  display: inline;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 400;
   text-transform: none;
   color: var(--champagne);
-  font-size: 0.62em;
-  line-height: 0.9;
-  margin: 0.02em 0;
+  font-size: 0.6em;
+  margin: 0 0.08em;
 }
 
 .hero-tag {
@@ -204,16 +204,16 @@ img { max-width: 100%; display: block; }
   background: var(--burgundy);
   color: var(--cream);
   border: 1px solid var(--burgundy);
-  padding: 1.05rem 3.5rem;
+  padding: 1.05rem 3rem;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.5em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.35s ease;
-  padding-left: calc(3.5rem + 0.5em);
+  padding-left: calc(3rem + 0.22em);
 }
 .btn:hover { background: var(--burgundy-dark); border-color: var(--champagne); }
 
@@ -221,10 +221,18 @@ img { max-width: 100%; display: block; }
   background: transparent;
   color: var(--burgundy);
   border: 1px solid var(--champagne);
-  font-size: 0.72rem;
-  letter-spacing: 0.55em;
-  padding: 0.95rem 2.75rem;
-  padding-left: calc(2.75rem + 0.55em);
+  font-size: 0.9rem;
+  letter-spacing: 0.22em;
+  padding: 0.95rem 2.5rem;
+  padding-left: calc(2.5rem + 0.22em);
+}
+
+/* larger, easy-to-read hero buttons */
+.hero-cta-row .btn {
+  font-size: 1.02rem;
+  letter-spacing: 0.2em;
+  padding: 1.1rem 2.9rem;
+  padding-left: calc(2.9rem + 0.2em);
 }
 .btn-line:hover { background: var(--burgundy); color: var(--cream); border-color: var(--burgundy); }
 
@@ -566,27 +574,30 @@ img { max-width: 100%; display: block; }
 .home-tag {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  letter-spacing: 0.12em;
+  font-weight: 500;
+  font-size: clamp(1.25rem, 2.6vw, 1.7rem);
+  letter-spacing: 0.08em;
   color: var(--champagne-soft);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 .home-date {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(0.82rem, 1.7vw, 1rem);
-  letter-spacing: 0.34em;
+  font-weight: 600;
+  font-size: clamp(1.05rem, 2.1vw, 1.4rem);
+  letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--cream);
-  margin-bottom: 0.85rem;
-  padding-left: 0.34em;
+  margin-bottom: 1rem;
+  padding-left: 0.24em;
 }
 .home-venue {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.4em;
+  font-weight: 600;
+  font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+  letter-spacing: 0.32em;
   text-transform: uppercase;
   color: var(--champagne-soft);
-  padding-left: 0.4em;
+  padding-left: 0.32em;
 }
 
 .hero-cta-row {
