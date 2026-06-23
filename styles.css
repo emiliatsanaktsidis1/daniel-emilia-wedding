@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; font-size: 17px; }
 body {
   background: var(--cream);
   color: var(--ink);
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'EB Garamond', Georgia, serif;
   font-weight: 500;
   line-height: 1.7;
   font-size: 1rem;
@@ -51,7 +51,7 @@ img { max-width: 100%; display: block; }
 }
 
 .nav-mono {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: 1.35rem;
   color: var(--burgundy);
@@ -68,7 +68,7 @@ img { max-width: 100%; display: block; }
   justify-content: flex-end;
 }
 .nav-links a {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.84rem;
   font-weight: 600;
   letter-spacing: 0.2em;
@@ -124,7 +124,7 @@ img { max-width: 100%; display: block; }
 .building svg { width: 100%; height: auto; }
 
 .hero-names {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(1.9rem, 6.8vw, 6.25rem);
   line-height: 1.05;
@@ -137,7 +137,7 @@ img { max-width: 100%; display: block; }
 .hero-names .name { display: inline; }
 .hero-names .amp {
   display: inline;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-style: italic;
   font-weight: 400;
   text-transform: none;
@@ -147,7 +147,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-tag {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: clamp(0.8rem, 1.6vw, 0.95rem);
   color: var(--muted);
@@ -158,7 +158,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-date-big {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(1.1rem, 2.4vw, 1.5rem);
   color: var(--ink);
@@ -183,7 +183,7 @@ img { max-width: 100%; display: block; }
   margin: 0 auto 2.5rem;
 }
 .invite-address {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.16em;
@@ -205,7 +205,7 @@ img { max-width: 100%; display: block; }
   color: var(--cream);
   border: 1px solid var(--burgundy);
   padding: 1.05rem 3rem;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.95rem;
   font-weight: 600;
   letter-spacing: 0.22em;
@@ -245,7 +245,7 @@ img { max-width: 100%; display: block; }
 }
 
 .eyebrow {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 0.88rem;
   color: var(--burgundy-wine);
@@ -255,7 +255,7 @@ img { max-width: 100%; display: block; }
 }
 
 .section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(2.4rem, 6vw, 4rem);
   line-height: 1.05;
@@ -289,7 +289,7 @@ img { max-width: 100%; display: block; }
 .detail { text-align: center; padding: 0 0.5rem; }
 
 .detail-label {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--burgundy-wine);
@@ -299,7 +299,7 @@ img { max-width: 100%; display: block; }
 }
 
 .detail-sub {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1.25rem;
@@ -308,7 +308,7 @@ img { max-width: 100%; display: block; }
 }
 
 .detail-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 1.18rem;
   color: var(--muted);
@@ -321,7 +321,7 @@ img { max-width: 100%; display: block; }
 .place { max-width: 600px; margin: 0 auto; }
 
 .place-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(1.9rem, 5vw, 2.9rem);
   line-height: 1.1;
@@ -335,7 +335,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: clamp(1.2rem, 2.8vw, 1.65rem);
   letter-spacing: 0.22em;
@@ -357,7 +357,7 @@ img { max-width: 100%; display: block; }
 .map-link {
   display: inline-block;
   margin-top: 1.5rem;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-style: italic;
   font-size: 1rem;
   letter-spacing: 0.12em;
@@ -373,7 +373,7 @@ img { max-width: 100%; display: block; }
    RSVP
 ============================================================ */
 .rsvp-date {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(1.4rem, 3.5vw, 2rem);
   letter-spacing: 0.1em;
@@ -383,7 +383,7 @@ img { max-width: 100%; display: block; }
 }
 
 .rsvp-intro {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-style: italic;
   font-weight: 500;
   font-size: 1.22rem;
@@ -392,7 +392,7 @@ img { max-width: 100%; display: block; }
 }
 
 .rsvp-note {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-style: italic;
   font-weight: 500;
   font-size: 1.12rem;
@@ -416,7 +416,7 @@ img { max-width: 100%; display: block; }
 .field label,
 .field legend {
   display: block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 0.92rem;
   color: var(--burgundy-wine);
@@ -429,7 +429,7 @@ img { max-width: 100%; display: block; }
 .field input[type="text"],
 .field textarea {
   width: 100%;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.15rem;
   color: var(--ink);
   background: transparent;
@@ -449,7 +449,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-size: 1.15rem;
   font-style: italic;
   color: var(--ink);
@@ -498,7 +498,7 @@ img { max-width: 100%; display: block; }
   background-image: radial-gradient(ellipse at center top, rgba(122, 29, 49, 0.45), transparent 70%);
 }
 .monogram {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: clamp(2.4rem, 6vw, 3.5rem);
   color: var(--cream);
@@ -507,7 +507,7 @@ img { max-width: 100%; display: block; }
 }
 .monogram span { color: var(--champagne); margin: 0 0.1em; }
 .footer-date {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.8rem;
   letter-spacing: 0.4em;
   text-transform: uppercase;
@@ -516,7 +516,7 @@ img { max-width: 100%; display: block; }
   padding-left: 0.4em;
 }
 .footer-small {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-style: italic;
   font-size: 0.9rem;
   color: var(--champagne-soft);
@@ -585,7 +585,7 @@ img { max-width: 100%; display: block; }
 .home-hero .hero-names .amp { color: var(--champagne); }
 
 .home-tag {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-style: italic;
   font-weight: 500;
   font-size: clamp(1.25rem, 2.6vw, 1.7rem);
@@ -594,7 +594,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 1.75rem;
 }
 .home-date {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 600;
   font-size: clamp(1.05rem, 2.1vw, 1.4rem);
   letter-spacing: 0.24em;
@@ -604,7 +604,7 @@ img { max-width: 100%; display: block; }
   padding-left: 0.24em;
 }
 .home-venue {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 600;
   font-size: clamp(0.9rem, 1.5vw, 1.05rem);
   letter-spacing: 0.32em;
@@ -665,7 +665,7 @@ img { max-width: 100%; display: block; }
 .section-burgundy .section-title { color: var(--cream); }
 
 .welcome-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.3rem;
   font-weight: 500;
   font-style: italic;
@@ -684,7 +684,7 @@ img { max-width: 100%; display: block; }
   margin: 2.75rem auto 0;
 }
 .glance-main {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: 1.55rem;
   color: var(--burgundy);
@@ -723,14 +723,14 @@ img { max-width: 100%; display: block; }
 }
 .card-icon svg { width: 100%; height: auto; }
 .card-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 600;
   font-size: 1.35rem;
   color: var(--burgundy);
   margin-bottom: 0.6rem;
 }
 .card-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 1.12rem;
   color: var(--muted);
@@ -753,14 +753,14 @@ img { max-width: 100%; display: block; }
 }
 .count-item { display: flex; flex-direction: column; align-items: center; min-width: 64px; }
 .count-num {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Fraunces', serif;
   font-weight: 500;
   font-size: clamp(2.2rem, 6vw, 3.5rem);
   line-height: 1;
   color: var(--cream);
 }
 .count-label {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.72rem;
   letter-spacing: 0.28em;
   text-transform: uppercase;
