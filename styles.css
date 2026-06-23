@@ -237,11 +237,11 @@ img { max-width: 100%; display: block; }
 }
 
 .eyebrow {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 0.88rem;
   color: var(--burgundy-wine);
-  letter-spacing: 0.32em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -281,11 +281,11 @@ img { max-width: 100%; display: block; }
 .detail { text-align: center; padding: 0 0.5rem; }
 
 .detail-label {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 0.9rem;
   color: var(--burgundy-wine);
-  letter-spacing: 0.26em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -323,10 +323,10 @@ img { max-width: 100%; display: block; }
 }
 
 .place-time {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 0.95rem;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--champagne);
   margin-bottom: 2.5rem;
@@ -397,11 +397,11 @@ img { max-width: 100%; display: block; }
 .field label,
 .field legend {
   display: block;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   font-size: 0.92rem;
   color: var(--burgundy-wine);
-  letter-spacing: 0.18em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
   padding: 0;
