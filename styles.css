@@ -681,7 +681,7 @@ img { max-width: 100%; display: block; }
   border: 0;
   border-top: 1px solid rgba(184, 153, 95, 0.45);
 }
-.wish-text { max-width: 600px; }
+.wish-text { max-width: 600px; margin: 0 auto; }
 .wish-sign {
   font-family: 'Great Vibes', cursive;
   font-size: clamp(2.4rem, 6vw, 3.4rem);
