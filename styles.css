@@ -675,6 +675,21 @@ img { max-width: 100%; display: block; }
   line-height: 1.75;
 }
 
+.note-divider {
+  max-width: 760px;
+  margin: 5rem auto 3.5rem;
+  border: 0;
+  border-top: 1px solid rgba(184, 153, 95, 0.45);
+}
+.wish-text { max-width: 600px; }
+.wish-sign {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  color: var(--burgundy);
+  line-height: 1.2;
+  margin-top: 2.75rem;
+}
+
 /* ---- at a glance ---- */
 .glance-grid {
   display: grid;
