@@ -331,13 +331,24 @@ img { max-width: 100%; display: block; }
 }
 
 .place-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.2em;
+  font-size: clamp(1.2rem, 2.8vw, 1.65rem);
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--champagne);
+  color: var(--burgundy-wine);
   margin-bottom: 2.5rem;
+}
+.place-time::before,
+.place-time::after {
+  content: "";
+  height: 1px;
+  width: 42px;
+  background: var(--champagne);
 }
 
 .place-block { margin-top: 2.5rem; }
